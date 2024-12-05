@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,11 +4,11 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	v2container "github.com/nspcc-dev/neofs-api-go/v2/container"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
+	v2container "github.com/epicchainlabs/epicchain-api-go/v2/container"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
 	"github.com/stretchr/testify/require"
 )
 

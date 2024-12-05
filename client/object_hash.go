@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/acl"
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	v2refs "github.com/nspcc-dev/neofs-api-go/v2/refs"
-	rpcapi "github.com/nspcc-dev/neofs-api-go/v2/rpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-sdk-go/bearer"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/stat"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	v2refs "github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	rpcapi "github.com/epicchainlabs/epicchain-api-go/v2/rpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/bearer"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/stat"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 var (

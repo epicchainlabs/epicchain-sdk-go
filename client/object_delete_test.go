@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 	"github.com/stretchr/testify/require"
 )
 

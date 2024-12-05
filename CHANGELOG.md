@@ -199,7 +199,7 @@ Bugs fixed:
 
 See git log.
 
-[1.0.0-rc.11]: https://github.com/nspcc-dev/neofs-sdk-go/compare/v1.0.0-rc.10...v1.0.0-rc.11
-[1.0.0-rc.10]: https://github.com/nspcc-dev/neofs-sdk-go/compare/v1.0.0-rc.9...v1.0.0-rc.10
-[1.0.0-rc.9]: https://github.com/nspcc-dev/neofs-sdk-go/compare/v1.0.0-rc.8...v1.0.0-rc.9
-[1.0.0-rc.8]: https://github.com/nspcc-dev/neofs-sdk-go/compare/v1.0.0-rc.7...v1.0.0-rc.8
+[1.0.0-rc.11]: https://github.com/epicchainlabs/epicchain-sdk-go/compare/v1.0.0-rc.10...v1.0.0-rc.11
+[1.0.0-rc.10]: https://github.com/epicchainlabs/epicchain-sdk-go/compare/v1.0.0-rc.9...v1.0.0-rc.10
+[1.0.0-rc.9]: https://github.com/epicchainlabs/epicchain-sdk-go/compare/v1.0.0-rc.8...v1.0.0-rc.9
+[1.0.0-rc.8]: https://github.com/epicchainlabs/epicchain-sdk-go/compare/v1.0.0-rc.7...v1.0.0-rc.8

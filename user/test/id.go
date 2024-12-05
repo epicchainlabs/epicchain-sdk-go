@@ -3,8 +3,8 @@ package usertest
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // ID returns random user.ID.

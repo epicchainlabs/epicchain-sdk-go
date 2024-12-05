@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/eacl"
-	versiontest "github.com/nspcc-dev/neofs-sdk-go/version/test"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/eacl"
+	versiontest "github.com/epicchainlabs/epicchain-sdk-go/version/test"
 	"github.com/stretchr/testify/require"
 )
 

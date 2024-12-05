@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	"github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/pool"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	"github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/pool"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 func ExampleNewWaiter() {

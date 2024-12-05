@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	v2session "github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	v2session "github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Object represents in-memory structure of the NeoFS object.

@@ -1,6 +1,6 @@
 package neofsecdsa
 
-import neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+import neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 
 func init() {
 	neofscrypto.RegisterScheme(neofscrypto.ECDSA_SHA512, func() neofscrypto.PublicKey {

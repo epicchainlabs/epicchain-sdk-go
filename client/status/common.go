@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/status"
+	"github.com/epicchainlabs/epicchain-api-go/v2/status"
 )
 
 // Error describes common error which is a grouping type for any [apistatus] errors. Any [apistatus] error may be checked

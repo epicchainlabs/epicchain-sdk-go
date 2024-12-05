@@ -1,8 +1,8 @@
 package storagegroup_test
 
 import (
-	apiGoStoragegroup "github.com/nspcc-dev/neofs-api-go/v2/storagegroup"
-	"github.com/nspcc-dev/neofs-sdk-go/storagegroup"
+	apiGoStoragegroup "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup"
+	"github.com/epicchainlabs/epicchain-sdk-go/storagegroup"
 )
 
 // StorageGroup type groups verification values for Data Audit sessions.
@@ -19,7 +19,7 @@ func ExampleStorageGroup_validation() {
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleStorageGroup_marshalling() {
-	// import apiGoStoragegroup "github.com/nspcc-dev/neofs-api-go/v2/storagegroup"
+	// import apiGoStoragegroup "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup"
 
 	// On the client side.
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	"github.com/nspcc-dev/neofs-sdk-go/reputation"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/reputation"
 )
 
 func PeerID() (v reputation.PeerID) {

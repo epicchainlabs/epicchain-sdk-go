@@ -1,9 +1,9 @@
 package object
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/tombstone"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/tombstone"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 )
 
 // Tombstone represents v2-compatible tombstone structure.

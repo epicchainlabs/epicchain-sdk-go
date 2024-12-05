@@ -3,11 +3,11 @@ package client
 import (
 	"context"
 
-	v2reputation "github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	rpcapi "github.com/nspcc-dev/neofs-api-go/v2/rpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-sdk-go/reputation"
-	"github.com/nspcc-dev/neofs-sdk-go/stat"
+	v2reputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	rpcapi "github.com/epicchainlabs/epicchain-api-go/v2/rpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/reputation"
+	"github.com/epicchainlabs/epicchain-sdk-go/stat"
 )
 
 var (

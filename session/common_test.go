@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
 	"github.com/google/uuid"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
 	"github.com/stretchr/testify/require"
 )
 

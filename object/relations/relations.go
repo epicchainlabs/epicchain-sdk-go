@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-sdk-go/bearer"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/bearer"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // Tokens contains different tokens to perform requests in Relations implementations.

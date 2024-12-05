@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
 )
 
 // mainFilterName is a name of the filter

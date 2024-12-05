@@ -1,12 +1,12 @@
 package accounting
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/accounting"
+	"github.com/epicchainlabs/epicchain-api-go/v2/accounting"
 )
 
 // Decimal represents decimal number for accounting operations.
 //
-// Decimal is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/accounting.Decimal
+// Decimal is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/accounting.Decimal
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

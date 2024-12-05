@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/acl"
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	rpcapi "github.com/nspcc-dev/neofs-api-go/v2/rpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-sdk-go/bearer"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/stat"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	rpcapi "github.com/epicchainlabs/epicchain-api-go/v2/rpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/bearer"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/stat"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 var (

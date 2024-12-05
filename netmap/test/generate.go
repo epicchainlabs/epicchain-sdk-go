@@ -3,7 +3,7 @@ package netmaptest
 import (
 	"math/rand"
 
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
 )
 
 func filter(withInner bool) (x netmap.Filter) {

@@ -3,8 +3,8 @@ package container_test
 import (
 	"testing"
 
-	containertest "github.com/nspcc-dev/neofs-sdk-go/container/test"
-	netmaptest "github.com/nspcc-dev/neofs-sdk-go/netmap/test"
+	containertest "github.com/epicchainlabs/epicchain-sdk-go/container/test"
+	netmaptest "github.com/epicchainlabs/epicchain-sdk-go/netmap/test"
 	"github.com/stretchr/testify/require"
 )
 

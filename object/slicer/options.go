@@ -1,8 +1,8 @@
 package slicer
 
 import (
-	"github.com/nspcc-dev/neofs-sdk-go/bearer"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/bearer"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
 )
 
 // Options groups Slicer options.

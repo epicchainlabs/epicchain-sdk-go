@@ -7,7 +7,7 @@ import (
 	"crypto/sha512"
 
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 )
 
 // Signer wraps ecdsa.PrivateKey and represents signer based on ECDSA with

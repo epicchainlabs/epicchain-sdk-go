@@ -1,8 +1,8 @@
 package neofscrypto_test
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 )
 
 func ExampleSignature_Calculate() {
@@ -28,7 +28,7 @@ func ExampleSignature_Verify() {
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleSignature_marshalling() {
-	// import "github.com/nspcc-dev/neofs-api-go/v2/refs"
+	// import "github.com/epicchainlabs/epicchain-api-go/v2/refs"
 
 	// On the client side.
 

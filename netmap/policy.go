@@ -8,15 +8,15 @@ import (
 	"strings"
 
 	"github.com/antlr/antlr4/runtime/Go/antlr/v4"
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap/parser"
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap/parser"
 )
 
 // PlacementPolicy declares policy to store objects in the NeoFS container.
 // Within itself, PlacementPolicy represents a set of rules to select a subset
 // of nodes from NeoFS network map - node-candidates for object storage.
 //
-// PlacementPolicy is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/netmap.PlacementPolicy
+// PlacementPolicy is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/netmap.PlacementPolicy
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

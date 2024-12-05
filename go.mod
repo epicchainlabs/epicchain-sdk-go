@@ -1,4 +1,4 @@
-module github.com/nspcc-dev/neofs-sdk-go
+module github.com/epicchainlabs/epicchain-sdk-go
 
 go 1.20
 
@@ -9,7 +9,7 @@ require (
 	github.com/mr-tron/base58 v1.2.0
 	github.com/nspcc-dev/hrw/v2 v2.0.1
 	github.com/nspcc-dev/neo-go v0.106.0
-	github.com/nspcc-dev/neofs-api-go/v2 v2.14.1-0.20240305074711-35bc78d84dc4
+	github.com/epicchainlabs/epicchain-api-go/v2 v2.14.1-0.20240305074711-35bc78d84dc4
 	github.com/nspcc-dev/tzhash v1.7.2
 	github.com/stretchr/testify v1.9.0
 	github.com/testcontainers/testcontainers-go v0.24.1

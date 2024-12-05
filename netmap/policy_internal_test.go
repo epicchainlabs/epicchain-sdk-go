@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
 	"github.com/stretchr/testify/require"
 )
 

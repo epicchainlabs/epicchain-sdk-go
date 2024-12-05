@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 	"github.com/nspcc-dev/tzhash/tz"
 )
 

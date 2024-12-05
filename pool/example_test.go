@@ -4,22 +4,22 @@ import (
 	"context"
 	"errors"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/pool"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/waiter"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/pool"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/waiter"
 )
 
 // Create pool instance with 3 nodes connection.
 // This InitParameters will make pool use 192.168.130.71 node while it is healthy.
 // Otherwise, it will make the pool use 192.168.130.72 for 90% of requests and 192.168.130.73 for remaining 10%.
 func ExampleNewPool() {
-	// import "github.com/nspcc-dev/neofs-sdk-go/user"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/user"
 
 	var signer user.Signer
 	var prm pool.InitParameters
@@ -36,9 +36,9 @@ func ExampleNewPool() {
 }
 
 func ExamplePool_ContainerPut() {
-	// import "github.com/nspcc-dev/neofs-sdk-go/waiter"
-	// import "github.com/nspcc-dev/neofs-sdk-go/container"
-	// import neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/waiter"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/container"
+	// import neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 
 	var p pool.Pool
 	// ... init pool
@@ -65,9 +65,9 @@ func ExamplePool_ContainerPut() {
 }
 
 func ExamplePool_ObjectHead() {
-	// import "github.com/nspcc-dev/neofs-sdk-go/waiter"
-	// import "github.com/nspcc-dev/neofs-sdk-go/container"
-	// import "github.com/nspcc-dev/neofs-sdk-go/user"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/waiter"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/container"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/user"
 
 	var p pool.Pool
 	// ... init pool

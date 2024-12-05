@@ -6,13 +6,13 @@ import (
 	"io"
 	"testing"
 
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
 	"github.com/stretchr/testify/require"
 )
 

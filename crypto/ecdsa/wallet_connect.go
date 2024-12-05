@@ -6,9 +6,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/signature/walletconnect"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/signature/walletconnect"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
 )
 
 // SignerWalletConnect is similar to SignerRFC6979 with 2 changes:

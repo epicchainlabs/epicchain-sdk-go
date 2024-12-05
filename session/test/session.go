@@ -6,11 +6,11 @@ import (
 	"crypto/rand"
 
 	"github.com/google/uuid"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	neofsecdsa "github.com/nspcc-dev/neofs-sdk-go/crypto/ecdsa"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	neofsecdsa "github.com/epicchainlabs/epicchain-sdk-go/crypto/ecdsa"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // Container returns random session.Container.

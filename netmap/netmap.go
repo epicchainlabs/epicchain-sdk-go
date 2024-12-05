@@ -4,16 +4,16 @@ import (
 	"crypto/sha256"
 	"fmt"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 	"github.com/nspcc-dev/hrw/v2"
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
 )
 
 // NetMap represents NeoFS network map. It includes information about all
 // storage nodes registered in NeoFS the network.
 //
-// NetMap is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/netmap.NetMap
+// NetMap is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/netmap.NetMap
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

@@ -1,7 +1,7 @@
 package apistatus
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/status"
+	"github.com/epicchainlabs/epicchain-api-go/v2/status"
 )
 
 // ErrUnrecognizedStatusV2 is an instance of UnrecognizedStatusV2 error status. It's expected to be used for [errors.Is]

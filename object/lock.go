@@ -1,9 +1,9 @@
 package object
 
 import (
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 )
 
 // Lock represents record with locked objects. It is compatible with

@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
+	netmapv2 "github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	"github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/waiter"
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	netmapv2 "github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	"github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/waiter"
 )
 
 // Put a new container into NeoFS.

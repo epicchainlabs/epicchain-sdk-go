@@ -4,14 +4,14 @@ import (
 	"crypto/sha256"
 	"fmt"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 	"github.com/mr-tron/base58"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
 )
 
 // ID represents NeoFS object identifier in a container.
 //
-// ID is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/refs.ObjectID
+// ID is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/refs.ObjectID
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

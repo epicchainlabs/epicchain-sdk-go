@@ -3,9 +3,9 @@ package pool
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	sessiontest "github.com/nspcc-dev/neofs-sdk-go/session/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	sessiontest "github.com/epicchainlabs/epicchain-sdk-go/session/test"
 	"github.com/stretchr/testify/require"
 )
 

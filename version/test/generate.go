@@ -3,7 +3,7 @@ package versiontest
 import (
 	"math/rand"
 
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Version returns random version.Version.

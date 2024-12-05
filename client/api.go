@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	v2netmap "github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	rpcapi "github.com/nspcc-dev/neofs-api-go/v2/rpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
+	v2netmap "github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	rpcapi "github.com/epicchainlabs/epicchain-api-go/v2/rpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
 )
 
 var (

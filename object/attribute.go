@@ -1,7 +1,7 @@
 package object
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
 )
 
 // Various system attributes.

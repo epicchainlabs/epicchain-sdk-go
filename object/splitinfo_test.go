@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	objv2 "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	objv2 "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 	"github.com/stretchr/testify/require"
 )
 

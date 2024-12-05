@@ -3,16 +3,16 @@ package objecttest
 import (
 	"testing"
 
+	objecttest "github.com/epicchainlabs/epicchain-api-go/v2/object/test"
+	checksumtest "github.com/epicchainlabs/epicchain-sdk-go/checksum/test"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
+	sessiontest "github.com/epicchainlabs/epicchain-sdk-go/session/test"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 	"github.com/google/uuid"
-	objecttest "github.com/nspcc-dev/neofs-api-go/v2/object/test"
-	checksumtest "github.com/nspcc-dev/neofs-sdk-go/checksum/test"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
-	sessiontest "github.com/nspcc-dev/neofs-sdk-go/session/test"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
 )
 
 // Range returns random object.Range.

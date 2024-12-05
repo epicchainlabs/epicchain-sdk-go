@@ -1,8 +1,8 @@
 package client
 
 import (
-	v2session "github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
+	v2session "github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
 )
 
 // sessionContainer is a special type which unifies session logic management for client parameters.

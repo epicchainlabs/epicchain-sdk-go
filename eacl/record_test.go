@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"testing"
 
+	v2acl "github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	checksumtest "github.com/epicchainlabs/epicchain-sdk-go/checksum/test"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
+	versiontest "github.com/epicchainlabs/epicchain-sdk-go/version/test"
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	v2acl "github.com/nspcc-dev/neofs-api-go/v2/acl"
-	checksumtest "github.com/nspcc-dev/neofs-sdk-go/checksum/test"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
-	versiontest "github.com/nspcc-dev/neofs-sdk-go/version/test"
 	"github.com/stretchr/testify/require"
 )
 

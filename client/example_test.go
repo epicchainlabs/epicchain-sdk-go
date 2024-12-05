@@ -7,15 +7,15 @@ import (
 	"crypto/rand"
 	"time"
 
+	rpcClient "github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofsecdsa "github.com/epicchainlabs/epicchain-sdk-go/crypto/ecdsa"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 	"github.com/google/uuid"
-	rpcClient "github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofsecdsa "github.com/nspcc-dev/neofs-sdk-go/crypto/ecdsa"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
 )
 
 func ExampleClient_createInstance() {
@@ -63,8 +63,8 @@ func Example_customService() {
 	// 	rpc CustomRPC(CustomRPCRequest) returns (CustomRPCResponse);
 	// }
 
-	// import "github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	// import "github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
+	// import "github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	// import "github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
 
 	var prmInit client.PrmInit
 	// ...
@@ -93,7 +93,7 @@ func Example_customService() {
 	// read-only. To be able to override client behavior (e.g. for tests), abstract it
 	// with an interface:
 	//
-	// import "github.com/nspcc-dev/neofs-sdk-go/client"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/client"
 	//
 	// type NeoFSClient interface {
 	// // Operations according to the application needs

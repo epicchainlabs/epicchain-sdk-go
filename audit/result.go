@@ -4,16 +4,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/audit"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	"github.com/epicchainlabs/epicchain-api-go/v2/audit"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Result represents report on the results of the data audit in NeoFS system.
 //
-// Result is mutually binary-compatible with github.com/nspcc-dev/neofs-api-go/v2/audit.DataAuditResult
+// Result is mutually binary-compatible with github.com/epicchainlabs/epicchain-api-go/v2/audit.DataAuditResult
 // message. See Marshal / Unmarshal methods.
 //
 // Instances can be created using built-in var declaration.

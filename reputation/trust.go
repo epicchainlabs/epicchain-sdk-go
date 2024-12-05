@@ -4,16 +4,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Trust represents quantitative assessment of the trust of a participant in the
 // NeoFS reputation system.
 //
-// Trust is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/reputation.Trust
+// Trust is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/reputation.Trust
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.
@@ -103,7 +103,7 @@ func (x Trust) Value() float64 {
 // PeerToPeerTrust represents trust of one participant of the NeoFS reputation
 // system to another one.
 //
-// Trust is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/reputation.PeerToPeerTrust
+// Trust is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/reputation.PeerToPeerTrust
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.
@@ -211,7 +211,7 @@ func (x PeerToPeerTrust) Trust() (res Trust) {
 // GlobalTrust represents the final assessment of trust in the participant of
 // the NeoFS reputation system obtained taking into account all other participants.
 //
-// GlobalTrust is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/reputation.GlobalTrust
+// GlobalTrust is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/reputation.GlobalTrust
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // To submit GlobalTrust value in NeoFS zero instance SHOULD be declared,

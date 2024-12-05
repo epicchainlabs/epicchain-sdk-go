@@ -1,13 +1,13 @@
 package reputation_test
 
 import (
-	apiGoReputation "github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	"github.com/nspcc-dev/neofs-sdk-go/reputation"
+	apiGoReputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	"github.com/epicchainlabs/epicchain-sdk-go/reputation"
 )
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleGlobalTrust_marshalling() {
-	// import apiGoReputation "github.com/nspcc-dev/neofs-api-go/v2/reputation"
+	// import apiGoReputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation"
 
 	// On the client side.
 	var trust reputation.GlobalTrust

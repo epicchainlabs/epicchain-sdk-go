@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	"github.com/nspcc-dev/neofs-sdk-go/eacl"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/eacl"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // ContainerSetEACLExecutor represents requirements to async container setEACL operation.

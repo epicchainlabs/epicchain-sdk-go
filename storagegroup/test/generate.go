@@ -1,10 +1,10 @@
 package storagegrouptest
 
 import (
-	checksumtest "github.com/nspcc-dev/neofs-sdk-go/checksum/test"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/storagegroup"
+	checksumtest "github.com/epicchainlabs/epicchain-sdk-go/checksum/test"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/storagegroup"
 )
 
 // StorageGroup returns random storagegroup.StorageGroup.

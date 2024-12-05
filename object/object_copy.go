@@ -3,9 +3,9 @@ package object
 import (
 	"bytes"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	v2session "github.com/nspcc-dev/neofs-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	v2session "github.com/epicchainlabs/epicchain-api-go/v2/session"
 )
 
 func copyObjectID(id *refs.ObjectID) *refs.ObjectID {

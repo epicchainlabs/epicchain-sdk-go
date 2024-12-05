@@ -3,12 +3,12 @@ package reputation_test
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	v2reputation "github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	"github.com/nspcc-dev/neofs-sdk-go/reputation"
-	reputationtest "github.com/nspcc-dev/neofs-sdk-go/reputation/test"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	v2reputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/reputation"
+	reputationtest "github.com/epicchainlabs/epicchain-sdk-go/reputation/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 	"github.com/stretchr/testify/require"
 )
 

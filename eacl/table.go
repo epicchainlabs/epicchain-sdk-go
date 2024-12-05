@@ -4,10 +4,10 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	v2acl "github.com/nspcc-dev/neofs-api-go/v2/acl"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	v2acl "github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Table is a group of ContainerEACL records for single container.

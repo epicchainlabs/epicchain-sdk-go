@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
 	"github.com/stretchr/testify/require"
 )
 

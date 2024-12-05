@@ -3,12 +3,12 @@ package pool
 import (
 	"context"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/eacl"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/eacl"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // ContainerPut sends request to save container in NeoFS.

@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 )
 
 // MaxHeaderLen is a maximum allowed length of binary object header to be

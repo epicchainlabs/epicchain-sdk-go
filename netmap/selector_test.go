@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
 	"github.com/nspcc-dev/hrw/v2"
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
 	"github.com/stretchr/testify/require"
 )
 

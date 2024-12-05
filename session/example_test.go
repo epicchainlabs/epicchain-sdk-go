@@ -1,20 +1,20 @@
 package session_test
 
 import (
-	apiGoSession "github.com/nspcc-dev/neofs-api-go/v2/session"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	apiGoSession "github.com/epicchainlabs/epicchain-api-go/v2/session"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // Both parties agree on a secret (private session key), the possession of which
 // will be authenticated by a trusted person. The principal confirms his trust by
 // signing the public part of the secret (public session key).
 func ExampleContainer() {
-	// import neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	// import "github.com/nspcc-dev/neofs-sdk-go/user"
-	// import cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
+	// import neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/user"
+	// import cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
 
 	// you private key/signer, to prove you are you
 	var principalSigner user.Signer
@@ -35,7 +35,7 @@ func ExampleContainer() {
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleObject_marshalling() {
-	// import apiGoSession "github.com/nspcc-dev/neofs-api-go/v2/session"
+	// import apiGoSession "github.com/epicchainlabs/epicchain-api-go/v2/session"
 
 	// On the client side.
 

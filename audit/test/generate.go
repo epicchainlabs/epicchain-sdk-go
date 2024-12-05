@@ -1,9 +1,9 @@
 package audittest
 
 import (
-	"github.com/nspcc-dev/neofs-sdk-go/audit"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/audit"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
 )
 
 // Result returns random audit.Result.

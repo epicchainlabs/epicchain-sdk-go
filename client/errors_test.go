@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
 	"github.com/stretchr/testify/require"
 )
 

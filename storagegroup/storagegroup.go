@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"strconv"
 
-	objectV2 "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/storagegroup"
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	objectSDK "github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	objectV2 "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/storagegroup"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	objectSDK "github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 )
 
 // StorageGroup represents storage group of the NeoFS objects.
 //
-// StorageGroup is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/storagegroup.StorageGroup
+// StorageGroup is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/storagegroup.StorageGroup
 // message. See ReadFromMessageV2 / WriteToMessageV2 methods.
 //
 // Instances can be created using built-in var declaration.

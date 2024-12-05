@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,11 +3,11 @@ package client
 import (
 	"context"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	v2session "github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-sdk-go/stat"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	v2session "github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/stat"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // PrmSessionCreate groups parameters of SessionCreate operation.

@@ -6,9 +6,9 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 	"github.com/stretchr/testify/require"
 )
 

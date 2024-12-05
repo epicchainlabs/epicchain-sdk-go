@@ -3,9 +3,9 @@ package bearertest
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/bearer"
-	eacltest "github.com/nspcc-dev/neofs-sdk-go/eacl/test"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/bearer"
+	eacltest "github.com/epicchainlabs/epicchain-sdk-go/eacl/test"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
 )
 
 // Token returns random bearer.Token.

@@ -3,8 +3,8 @@ package pool
 import (
 	"context"
 
-	"github.com/nspcc-dev/neofs-sdk-go/accounting"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/accounting"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
 )
 
 // BalanceGet requests current balance of the NeoFS account.

@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/object/relations"
-	"github.com/nspcc-dev/neofs-sdk-go/storagegroup"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/object/relations"
+	"github.com/epicchainlabs/epicchain-sdk-go/storagegroup"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 	"github.com/nspcc-dev/tzhash/tz"
 )
 

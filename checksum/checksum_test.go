@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
 	"github.com/nspcc-dev/tzhash/tz"
 	"github.com/stretchr/testify/require"
 )

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	netmapv2 "github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	netmaptest "github.com/nspcc-dev/neofs-sdk-go/netmap/test"
+	netmapv2 "github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	netmaptest "github.com/epicchainlabs/epicchain-sdk-go/netmap/test"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,18 +3,18 @@ package container_test
 import (
 	"time"
 
-	apiGoContainer "github.com/nspcc-dev/neofs-api-go/v2/container"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	"github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	apiGoContainer "github.com/epicchainlabs/epicchain-api-go/v2/container"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	"github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // To create new container in the NeoFS network Container instance should be initialized.
 func ExampleContainer_Init() {
-	// import "github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	// import "github.com/nspcc-dev/neofs-sdk-go/user"
-	// import "github.com/nspcc-dev/neofs-sdk-go/netmap"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/user"
+	// import "github.com/epicchainlabs/epicchain-sdk-go/netmap"
 
 	var account user.ID
 
@@ -43,7 +43,7 @@ func ExampleContainer_Init() {
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleContainer_marshalling() {
-	// import apiGoContainer "github.com/nspcc-dev/neofs-api-go/v2/container"
+	// import apiGoContainer "github.com/epicchainlabs/epicchain-api-go/v2/container"
 
 	// On the client side.
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	neofsecdsa "github.com/nspcc-dev/neofs-sdk-go/crypto/ecdsa"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	neofsecdsa "github.com/epicchainlabs/epicchain-sdk-go/crypto/ecdsa"
 	"github.com/stretchr/testify/require"
 )
 

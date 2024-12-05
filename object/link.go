@@ -1,9 +1,9 @@
 package object
 
 import (
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
 )
 
 // Link is a payload of helper objects that contain the full list of the split

@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	neofsecdsa "github.com/epicchainlabs/epicchain-sdk-go/crypto/ecdsa"
+	"github.com/epicchainlabs/epicchain-sdk-go/stat"
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	neofsecdsa "github.com/nspcc-dev/neofs-sdk-go/crypto/ecdsa"
-	"github.com/nspcc-dev/neofs-sdk-go/stat"
 )
 
 const (
@@ -157,7 +157,7 @@ func (c *Client) Dial(prm PrmDial) error {
 
 // sets underlying provider of neoFSAPIServer. The method is used for testing as an approach
 // to skip Dial stage and override NeoFS API server. MUST NOT be used outside test code.
-// In real applications wrapper over github.com/nspcc-dev/neofs-api-go/v2/rpc/client
+// In real applications wrapper over github.com/epicchainlabs/epicchain-api-go/v2/rpc/client
 // is statically used.
 func (c *Client) setNeoFSAPIServer(server neoFSAPIServer) {
 	c.server = server

@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
 	"github.com/stretchr/testify/require"
 )
 

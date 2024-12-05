@@ -1,9 +1,9 @@
 package user_test
 
 import (
+	apiGoRefs "github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 	"github.com/nspcc-dev/neo-go/pkg/util"
-	apiGoRefs "github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
 )
 
 // NeoFS user identification is compatible with Neo accounts.
@@ -45,7 +45,7 @@ func ExampleID_DecodeString() {
 
 // Instances can be also used to process NeoFS API V2 protocol messages with [https://github.com/nspcc-dev/neofs-api] package.
 func ExampleID_marshalling() {
-	// import apiGoRefs "github.com/nspcc-dev/neofs-api-go/v2/refs"
+	// import apiGoRefs "github.com/epicchainlabs/epicchain-api-go/v2/refs"
 
 	// On the client side.
 

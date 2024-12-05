@@ -3,8 +3,8 @@ package object_test
 import (
 	"testing"
 
-	v2object "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
+	v2object "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
 	"github.com/stretchr/testify/require"
 )
 

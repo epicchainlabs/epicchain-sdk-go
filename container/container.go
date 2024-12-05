@@ -8,16 +8,16 @@ import (
 	"strings"
 	"time"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/container"
+	v2netmap "github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-sdk-go/container/acl"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 	"github.com/google/uuid"
-	"github.com/nspcc-dev/neofs-api-go/v2/container"
-	v2netmap "github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-sdk-go/container/acl"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
 )
 
 // Container represents descriptor of the NeoFS container. Container logically
@@ -35,7 +35,7 @@ import (
 // Instances for existing containers can be initialized using decoding methods
 // (e.g Unmarshal).
 //
-// Container is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/container.Container
+// Container is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/container.Container
 // message. See ReadFromV2 / WriteToV2 methods.
 type Container struct {
 	v2 container.Container

@@ -3,10 +3,10 @@ package oid_test
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
 	"github.com/stretchr/testify/require"
 )
 

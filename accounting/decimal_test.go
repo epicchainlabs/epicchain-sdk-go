@@ -3,9 +3,9 @@ package accounting_test
 import (
 	"testing"
 
-	v2accounting "github.com/nspcc-dev/neofs-api-go/v2/accounting"
-	"github.com/nspcc-dev/neofs-sdk-go/accounting"
-	accountingtest "github.com/nspcc-dev/neofs-sdk-go/accounting/test"
+	v2accounting "github.com/epicchainlabs/epicchain-api-go/v2/accounting"
+	"github.com/epicchainlabs/epicchain-sdk-go/accounting"
+	accountingtest "github.com/epicchainlabs/epicchain-sdk-go/accounting/test"
 	"github.com/stretchr/testify/require"
 )
 

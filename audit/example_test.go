@@ -1,8 +1,8 @@
 package audit_test
 
 import (
-	"github.com/nspcc-dev/neofs-sdk-go/audit"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/audit"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
 )
 
 func ExampleResult() {

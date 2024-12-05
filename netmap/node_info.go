@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 	"github.com/nspcc-dev/hrw/v2"
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
 )
 
 // NodeInfo groups information about NeoFS storage node which is reflected
@@ -18,7 +18,7 @@ import (
 // about the nodes is available to all network participants to work with the network
 // map (mainly to comply with container storage policies).
 //
-// NodeInfo is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/netmap.NodeInfo
+// NodeInfo is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/netmap.NodeInfo
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

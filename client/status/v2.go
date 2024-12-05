@@ -4,17 +4,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/container"
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-api-go/v2/status"
+	"github.com/epicchainlabs/epicchain-api-go/v2/container"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-api-go/v2/status"
 )
 
 // StatusV2 defines a variety of status instances compatible with NeoFS API V2 protocol.
 //
 // Note: it is not recommended to use this type directly, it is intended for documentation of the library functionality.
 type StatusV2 interface {
-	// ErrorToV2 returns the status as github.com/nspcc-dev/neofs-api-go/v2/status.Status message structure.
+	// ErrorToV2 returns the status as github.com/epicchainlabs/epicchain-api-go/v2/status.Status message structure.
 	ErrorToV2() *status.Status
 }
 

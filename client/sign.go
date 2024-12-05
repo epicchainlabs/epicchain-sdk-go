@@ -4,15 +4,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/accounting"
-	"github.com/nspcc-dev/neofs-api-go/v2/container"
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/signature"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-api-go/v2/accounting"
+	"github.com/epicchainlabs/epicchain-api-go/v2/container"
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/signature"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 )
 
 type serviceRequest interface {

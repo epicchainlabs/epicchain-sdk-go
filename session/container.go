@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 // Container represents token of the NeoFS Container session. A session is opened
@@ -17,7 +17,7 @@ import (
 // limited validity period, and applies to a strictly defined set of operations.
 // See methods for details.
 //
-// Container is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/session.Token
+// Container is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/session.Token
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

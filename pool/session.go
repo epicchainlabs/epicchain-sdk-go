@@ -7,11 +7,11 @@ import (
 	"math"
 
 	"github.com/google/uuid"
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofsecdsa "github.com/nspcc-dev/neofs-sdk-go/crypto/ecdsa"
-	"github.com/nspcc-dev/neofs-sdk-go/session"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofsecdsa "github.com/epicchainlabs/epicchain-sdk-go/crypto/ecdsa"
+	"github.com/epicchainlabs/epicchain-sdk-go/session"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 )
 
 var (

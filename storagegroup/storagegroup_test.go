@@ -5,17 +5,17 @@ import (
 	"strconv"
 	"testing"
 
-	objectV2 "github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	storagegroupV2 "github.com/nspcc-dev/neofs-api-go/v2/storagegroup"
-	storagegroupV2test "github.com/nspcc-dev/neofs-api-go/v2/storagegroup/test"
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	checksumtest "github.com/nspcc-dev/neofs-sdk-go/checksum/test"
-	objectSDK "github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	oidtest "github.com/nspcc-dev/neofs-sdk-go/object/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/storagegroup"
-	storagegrouptest "github.com/nspcc-dev/neofs-sdk-go/storagegroup/test"
+	objectV2 "github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	storagegroupV2 "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup"
+	storagegroupV2test "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	checksumtest "github.com/epicchainlabs/epicchain-sdk-go/checksum/test"
+	objectSDK "github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	oidtest "github.com/epicchainlabs/epicchain-sdk-go/object/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/storagegroup"
+	storagegrouptest "github.com/epicchainlabs/epicchain-sdk-go/storagegroup/test"
 	"github.com/stretchr/testify/require"
 )
 
@@ -58,7 +58,7 @@ func TestStorageGroup_ReadFromV2(t *testing.T) {
 			v2 = storagegroupV2test.GenerateStorageGroup(false)
 		)
 
-		// https://github.com/nspcc-dev/neofs-api-go/issues/394
+		// https://github.com/epicchainlabs/epicchain-api-go/issues/394
 		v2.SetMembers(generateOIDList())
 
 		size := v2.GetValidationDataSize()

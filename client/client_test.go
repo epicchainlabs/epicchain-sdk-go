@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 	"github.com/stretchr/testify/require"
 )
 

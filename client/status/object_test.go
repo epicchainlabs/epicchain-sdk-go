@@ -3,7 +3,7 @@ package apistatus_test
 import (
 	"testing"
 
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
 	"github.com/stretchr/testify/require"
 )
 

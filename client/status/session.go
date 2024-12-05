@@ -3,8 +3,8 @@ package apistatus
 import (
 	"errors"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	"github.com/nspcc-dev/neofs-api-go/v2/status"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-api-go/v2/status"
 )
 
 var (

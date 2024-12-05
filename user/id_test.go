@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
 	"github.com/mr-tron/base58"
 	"github.com/nspcc-dev/neo-go/pkg/util"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
 	"github.com/stretchr/testify/require"
 )
 

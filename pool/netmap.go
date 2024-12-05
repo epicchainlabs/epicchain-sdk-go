@@ -3,8 +3,8 @@ package pool
 import (
 	"context"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
 )
 
 // NetworkInfo requests information about the NeoFS network of which the remote server is a part.

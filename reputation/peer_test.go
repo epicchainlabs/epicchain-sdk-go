@@ -3,9 +3,9 @@ package reputation_test
 import (
 	"testing"
 
-	v2reputation "github.com/nspcc-dev/neofs-api-go/v2/reputation"
-	"github.com/nspcc-dev/neofs-sdk-go/reputation"
-	reputationtest "github.com/nspcc-dev/neofs-sdk-go/reputation/test"
+	v2reputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation"
+	"github.com/epicchainlabs/epicchain-sdk-go/reputation"
+	reputationtest "github.com/epicchainlabs/epicchain-sdk-go/reputation/test"
 	"github.com/stretchr/testify/require"
 )
 

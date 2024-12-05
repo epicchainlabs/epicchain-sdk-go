@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"testing"
 
-	v2netmap "github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/crypto/test"
-	"github.com/nspcc-dev/neofs-sdk-go/netmap"
+	v2netmap "github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/crypto/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/netmap"
 	"github.com/stretchr/testify/require"
 )
 

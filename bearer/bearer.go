@@ -4,18 +4,18 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/eacl"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
 	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neofs-api-go/v2/acl"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
-	"github.com/nspcc-dev/neofs-sdk-go/eacl"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
 )
 
 // Token represents bearer token for object service operations.
 //
-// Token is mutually compatible with github.com/nspcc-dev/neofs-api-go/v2/acl.BearerToken
+// Token is mutually compatible with github.com/epicchainlabs/epicchain-api-go/v2/acl.BearerToken
 // message. See ReadFromV2 / WriteToV2 methods.
 //
 // Instances can be created using built-in var declaration.

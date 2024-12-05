@@ -1,8 +1,8 @@
 package accounting_test
 
 import (
-	apiGoAccounting "github.com/nspcc-dev/neofs-api-go/v2/accounting"
-	"github.com/nspcc-dev/neofs-sdk-go/accounting"
+	apiGoAccounting "github.com/epicchainlabs/epicchain-api-go/v2/accounting"
+	"github.com/epicchainlabs/epicchain-sdk-go/accounting"
 )
 
 func Example() {
@@ -16,7 +16,7 @@ func Example() {
 
 	// On the client side.
 
-	// import apiGoAccounting "github.com/nspcc-dev/neofs-api-go/v2/accounting"
+	// import apiGoAccounting "github.com/epicchainlabs/epicchain-api-go/v2/accounting"
 	var msg apiGoAccounting.Decimal
 	dec.WriteToV2(&msg)
 	// *send message*

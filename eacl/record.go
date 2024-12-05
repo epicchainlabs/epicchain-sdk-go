@@ -3,13 +3,13 @@ package eacl
 import (
 	"crypto/ecdsa"
 
-	v2acl "github.com/nspcc-dev/neofs-api-go/v2/acl"
-	"github.com/nspcc-dev/neofs-sdk-go/checksum"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	oid "github.com/nspcc-dev/neofs-sdk-go/object/id"
-	"github.com/nspcc-dev/neofs-sdk-go/user"
-	"github.com/nspcc-dev/neofs-sdk-go/version"
+	v2acl "github.com/epicchainlabs/epicchain-api-go/v2/acl"
+	"github.com/epicchainlabs/epicchain-sdk-go/checksum"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	oid "github.com/epicchainlabs/epicchain-sdk-go/object/id"
+	"github.com/epicchainlabs/epicchain-sdk-go/user"
+	"github.com/epicchainlabs/epicchain-sdk-go/version"
 )
 
 // Record of the ContainerEACL rule, that defines ContainerEACL action, targets for this action,

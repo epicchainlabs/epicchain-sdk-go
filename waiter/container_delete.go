@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nspcc-dev/neofs-sdk-go/client"
-	apistatus "github.com/nspcc-dev/neofs-sdk-go/client/status"
-	"github.com/nspcc-dev/neofs-sdk-go/container"
-	cid "github.com/nspcc-dev/neofs-sdk-go/container/id"
-	neofscrypto "github.com/nspcc-dev/neofs-sdk-go/crypto"
+	"github.com/epicchainlabs/epicchain-sdk-go/client"
+	apistatus "github.com/epicchainlabs/epicchain-sdk-go/client/status"
+	"github.com/epicchainlabs/epicchain-sdk-go/container"
+	cid "github.com/epicchainlabs/epicchain-sdk-go/container/id"
+	neofscrypto "github.com/epicchainlabs/epicchain-sdk-go/crypto"
 )
 
 // ContainerDeleteExecutor represents requirements to async container delete operation.

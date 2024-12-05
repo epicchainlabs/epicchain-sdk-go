@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	cidtest "github.com/nspcc-dev/neofs-sdk-go/container/id/test"
-	"github.com/nspcc-dev/neofs-sdk-go/object"
-	usertest "github.com/nspcc-dev/neofs-sdk-go/user/test"
+	cidtest "github.com/epicchainlabs/epicchain-sdk-go/container/id/test"
+	"github.com/epicchainlabs/epicchain-sdk-go/object"
+	usertest "github.com/epicchainlabs/epicchain-sdk-go/user/test"
 	"github.com/stretchr/testify/require"
 )
 
